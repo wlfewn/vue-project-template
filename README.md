@@ -1,24 +1,25 @@
 
 # 说明
 
-1. 这是一个vue的基础项目，与现在的element-UI之类的开源项目无关，可以根据实际情况自己选择
+1. 这是一个vue的基础项目，与现在的element-UI之类的开源UI框架无关，可以根据实际情况自己选择
+    
     | 序号 | 功能 |
     |----|----|
-    | 1 | webpack4.0、babel 7.0 |
+    | 1 | 项目使用webpack4.0、babel 7.0 |
     | 2 | 可以外部引用脚本的，使用cdn加速，具体查看index.html |
     | 3 | 封装常用插件，按需引用,具体查看下面的插件说明 |
     | 4 | vue-i18国际化 |
     | 5 | 项目内统一的参数配置，查看 /src/assest/common/system-config.js|
     | 6 | http请求支持是否启用携带token，查看项目内统一的参数配置 |
-    | 6 | 使用事件进行解耦，保持最大的灵活性。比如vue-router的路由拦截，可以按照自己意愿配置 |
+    | 7 | 使用事件进行解耦，保持最大的灵活性。比如vue-router的路由拦截具体功能，可以按照自己意愿配置 |
 
 ## 过程记录
 
 1. 这是vue webpack4项目，改造自 https://github.com/naihe138/nvue
-2. node-sass
-    3.1 node-sass安装很麻烦，需要python2.7、c++编译工具等
+2. node-sass       
+    2.1 node-sass安装很麻烦，需要python2.7、c++编译工具等
 
-    3.2 简单使用 https://www.w3cplus.com/css/an-introduction-to-less-and-comparison-to-sass.html]
+    2.2 简单使用 https://www.w3cplus.com/css/an-introduction-to-less-and-comparison-to-sass.html]
 
 3. vue组件懒加载 https://www.cnblogs.com/zhanyishu/p/6587571.html
 4. 与移动端适配时，可以使用px2rem-loader 参考 https://www.npmjs.com/package/px2rem-loader
@@ -46,6 +47,7 @@
 ## 插件
 
 1. 自定义插件所在目录 —— /src/plugins
+
    | 插件名 | 说明 |
    | ------ | ---- |
    | plugin-event | 可全局使用的事件插件, 封装vue-bus |
