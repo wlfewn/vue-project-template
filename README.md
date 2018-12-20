@@ -13,11 +13,21 @@
     | 6 | http请求支持是否启用携带token，查看项目内统一的参数配置 |
     | 7 | 使用事件进行解耦，保持最大的灵活性。比如vue-router的路由拦截具体功能，可以按照自己意愿配置 |
 
+2. 启动
+  
+      在package.json同级位置，执行npm install，安装依赖模块
+      安装完之后，执行npm run dev启动项目
+
+3. docker 
+
+      1. 项目根目录三个相关文件——nginx.conf、Dockerfile、deploy.sh
+      2. linux环境，直接在项目根目录运行'sh deploy.sh'构建镜像
+
 ## 过程记录
 
 1. 这是vue webpack4项目，改造自 https://github.com/naihe138/nvue
 2. node-sass       
-    2.1 node-sass安装很麻烦，需要python2.7、c++编译工具等
+    2.1 windows node-sass安装很麻烦，需要python2.7、c++编译工具等
 
     2.2 简单使用 https://www.w3cplus.com/css/an-introduction-to-less-and-comparison-to-sass.html]
 
@@ -29,6 +39,14 @@
 8. babel 6.x升级到7.x https://www.jianshu.com/p/e21d19875fbb
 9. vue-bus使用 https://www.npmjs.com/package/vue-bus
 10. vue-i18n 国际化 http://kazupon.github.io/vue-i18n/
+11. vue docker 部署 
+        1.  https://blog.csdn.net/g631521612/article/details/82841282
+        2.  https://www.jianshu.com/p/05f889faa74b?from=timeline&isappinstalled=0
+12. linux 使用shell 自动部署docker 镜像 https://segmentfault.com/a/1190000002787981
+13. linux 下npm install权限不足处理 https://www.imooc.com/qadetail/63277
+14. ubuntu 上安装node https://www.cnblogs.com/andfly/p/6681487.html
+15. 如果遇到npm install 安装报不明所以的错误，可以考虑重新安装node跟npm
+16. 免sudo使用docker命令 https://www.jianshu.com/p/95e397570896
 
 ## 补充
 
@@ -57,6 +75,7 @@
 ## 项目结构
 
 ```txt
+  release -- docker 部署方面脚本
   src
     | -- assest 一般存放js脚本
       | -- common

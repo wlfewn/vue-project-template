@@ -112,8 +112,8 @@ const webpackConfig = merge(baseWebpackConfig, {
         ignore: ['.*']
       }
     ]),
-    // 打包进度
-    new webpack.ProgressPlugin(true)
+    // 打包进度 
+    new webpack.ProgressPlugin()
   ]
 })
 
