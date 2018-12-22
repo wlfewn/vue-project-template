@@ -47,6 +47,7 @@
 14. ubuntu 上安装node https://www.cnblogs.com/andfly/p/6681487.html
 15. 如果遇到npm install 安装报不明所以的错误，可以考虑重新安装node跟npm
 16. 免sudo使用docker命令 https://www.jianshu.com/p/95e397570896
+17. nginx官方文档 http://nginx.org/en/docs/
 
 ## 补充
 
