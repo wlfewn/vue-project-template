@@ -56,6 +56,11 @@ module.exports = {
     "max-nested-callbacks": [0, 2],
     'comma-dangle': 'off',
     // import 不需要都放在顶部
-    'import/first': 'off'
+    'import/first': 'off',
+	// 允许使用tab与spaces
+    'indent': 'off',
+    // 允许使用一个var声明多个变量
+    'one-var': 'off',
+    // 'no-unused-vars': 'off'
   }
 }

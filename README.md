@@ -2,7 +2,7 @@
 # 说明
 
 1. 这是一个vue的基础项目，与现在的element-UI之类的开源UI框架无关，可以根据实际情况自己选择
-    
+
     | 序号 | 功能 |
     |----|----|
     | 1 | 项目使用webpack4.0、babel 7.0 |
@@ -18,15 +18,15 @@
       在package.json同级位置，执行npm install，安装依赖模块
       安装完之后，执行npm run dev启动项目
 
-3. docker 
+3. docker 构建镜像
 
-      1. 项目根目录三个相关文件——nginx.conf、Dockerfile、deploy.sh
+      1. 项目有三个相关文件 —— 根目录的Dockerfile、shells下的nginx.conf和deploy.sh
       2. linux环境，直接在项目根目录运行'sh deploy.sh'构建镜像
 
 ## 过程记录
 
 1. 这是vue webpack4项目，改造自 https://github.com/naihe138/nvue
-2. node-sass       
+2. node-sass
     2.1 windows node-sass安装很麻烦，需要python2.7、c++编译工具等
 
     2.2 简单使用 https://www.w3cplus.com/css/an-introduction-to-less-and-comparison-to-sass.html]
@@ -48,6 +48,7 @@
 15. 如果遇到npm install 安装报不明所以的错误，可以考虑重新安装node跟npm
 16. 免sudo使用docker命令 https://www.jianshu.com/p/95e397570896
 17. nginx官方文档 http://nginx.org/en/docs/
+18. tailwind 官网 https://www.tailwindcss.cn/
 
 ## 补充
 
