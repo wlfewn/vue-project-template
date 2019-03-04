@@ -49,6 +49,7 @@
 16. 免sudo使用docker命令 https://www.jianshu.com/p/95e397570896
 17. nginx官方文档 http://nginx.org/en/docs/
 18. tailwind 官网 https://www.tailwindcss.cn/
+19. 字体图标使用font awesome http://www.fontawesome.com.cn/
 
 ## 补充
 
